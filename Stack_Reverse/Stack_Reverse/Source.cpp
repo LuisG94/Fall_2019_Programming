@@ -49,7 +49,7 @@ int main()
 	Queue q;
 	init(&q, array_size);
 
-	for (int i = 0; i < array_size; ++i)
+	for (int i = 0; i < array_size; ++i)//NEED TO FIX
 	{
 		int value = 0;
 		printf("Enter a value: ");
