@@ -27,7 +27,8 @@ void queue(Queue *s, char value)
 char dequeue(Queue *s)
 {
 	int index = s->offset++;
-	index %= s->array_size;
+	s->offset %= s->array_size;
+	s->ndata--;
 	return s->data[index];
 }
 
