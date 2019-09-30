@@ -24,8 +24,8 @@ void bubblesort(int *data, int n_data)
 
 int main()
 {
-	const int n_data = 8;
-	int data[n_data] = {1,1,2,5,6,4,2,1};
+	const int n_data = 12;
+	int data[n_data] = {1,1,2,5,6,4,2,1,3,6,9,12};
 	int temp[n_data];
 
 	bubblesort(data, n_data);
