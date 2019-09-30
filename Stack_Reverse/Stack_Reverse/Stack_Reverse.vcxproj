@@ -23,6 +23,7 @@
     <ProjectGuid>{F252FD04-212C-49F7-9A44-3EB86D08906D}</ProjectGuid>
     <RootNamespace>StackReverse</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Queue</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
